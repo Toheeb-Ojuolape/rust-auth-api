@@ -1,14 +1,20 @@
+pub mod crypto;
+use actix_web::test::config;
 use color_eyre::Result;
 use serde::Deserialize;
 use dotenv::dotenv;
+use sqlx::postgres::PgPool;
 use tracing::{info,instrument};
 use tracing_subscriber::EnvFilter;
 use eyre::WrapErr;
+use std::{time::Duration, sync::Arc};
 
 #[derive(Debug,Deserialize)]
 pub struct Config{
     pub host: String,
-    pub port: i32
+    pub port: i32,
+    pub database_url: String,
+    pub secret_key: String
 }
 
 impl Config {
@@ -29,5 +35,20 @@ impl Config {
 
         c.try_into()
         .context("loading configuration from environment")
+    }
+
+    pub async fn db_pool(&self) -> Result<PgPool>{
+        info!("Creating database connection");
+        PgPool::builder()
+        .connect_timeout(Duration::from_secs(30))
+        .build(&self.database_url)
+        .await
+        .context("Creating database connection pool")
+    }
+
+    pub fn crypto_service(&self) -> CryptoService{
+        CryptoService{
+            key: Arc::new(self.secret_key.clone())
+        }
     }
 }
