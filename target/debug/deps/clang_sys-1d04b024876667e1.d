@@ -1,0 +1,13 @@
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\deps\clang_sys-1d04b024876667e1.rmeta: C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\lib.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\support.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\link.rs C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\clang-sys-3c9d282f24fda7c0\out/common.rs C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\clang-sys-3c9d282f24fda7c0\out/dynamic.rs
+
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\deps\libclang_sys-1d04b024876667e1.rlib: C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\lib.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\support.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\link.rs C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\clang-sys-3c9d282f24fda7c0\out/common.rs C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\clang-sys-3c9d282f24fda7c0\out/dynamic.rs
+
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\deps\clang_sys-1d04b024876667e1.d: C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\lib.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\support.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\link.rs C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\clang-sys-3c9d282f24fda7c0\out/common.rs C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\clang-sys-3c9d282f24fda7c0\out/dynamic.rs
+
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\lib.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\support.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\clang-sys-0.26.4\src\link.rs:
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\clang-sys-3c9d282f24fda7c0\out/common.rs:
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\clang-sys-3c9d282f24fda7c0\out/dynamic.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\clang-sys-3c9d282f24fda7c0\\out

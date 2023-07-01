@@ -1,0 +1,10 @@
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\deps\color_eyre-704c8bc7067fcc36.rmeta: C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\lib.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\section\mod.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\section\help.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\writers.rs
+
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\deps\libcolor_eyre-704c8bc7067fcc36.rlib: C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\lib.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\section\mod.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\section\help.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\writers.rs
+
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\deps\color_eyre-704c8bc7067fcc36.d: C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\lib.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\section\mod.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\section\help.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\writers.rs
+
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\lib.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\section\mod.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\section\help.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\color-eyre-0.3.4\src\writers.rs:

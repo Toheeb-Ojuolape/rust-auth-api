@@ -1,0 +1,110 @@
+cargo:include=C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\brotli-sys-0.3.2\brotli/include
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/common/dictionary.o" "-c" "brotli/common/dictionary.c"
+dictionary.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/dec/bit_reader.o" "-c" "brotli/dec/bit_reader.c"
+bit_reader.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/dec/decode.o" "-c" "brotli/dec/decode.c"
+decode.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/dec/huffman.o" "-c" "brotli/dec/huffman.c"
+exit code: 0
+huffman.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/dec/state.o" "-c" "brotli/dec/state.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/backward_references.o" "-c" "brotli/enc/backward_references.c"
+state.c
+backward_references.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/backward_references_hq.o" "-c" "brotli/enc/backward_references_hq.c"
+backward_references_hq.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/bit_cost.o" "-c" "brotli/enc/bit_cost.c"
+exit code: 0
+bit_cost.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/block_splitter.o" "-c" "brotli/enc/block_splitter.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/brotli_bit_stream.o" "-c" "brotli/enc/brotli_bit_stream.c"
+block_splitter.c
+brotli_bit_stream.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/cluster.o" "-c" "brotli/enc/cluster.c"
+cluster.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/compress_fragment.o" "-c" "brotli/enc/compress_fragment.c"
+compress_fragment.c
+exit code: 0
+exit code: 0
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/compress_fragment_two_pass.o" "-c" "brotli/enc/compress_fragment_two_pass.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/dictionary_hash.o" "-c" "brotli/enc/dictionary_hash.c"
+compress_fragment_two_pass.c
+dictionary_hash.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/encode.o" "-c" "brotli/enc/encode.c"
+encode.c
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/entropy_encode.o" "-c" "brotli/enc/entropy_encode.c"
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/histogram.o" "-c" "brotli/enc/histogram.c"
+entropy_encode.c
+histogram.c
+exit code: 0
+exit code: 0
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/literal_cost.o" "-c" "brotli/enc/literal_cost.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/memory.o" "-c" "brotli/enc/memory.c"
+memory.c
+literal_cost.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/metablock.o" "-c" "brotli/enc/metablock.c"
+metablock.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/static_dict.o" "-c" "brotli/enc/static_dict.c"
+static_dict.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "brotli/include" "-FoC:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/utf8_util.o" "-c" "brotli/enc/utf8_util.c"
+utf8_util.c
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\libbrotli.a" "-nologo" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/common/dictionary.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/dec/bit_reader.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/dec/decode.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/dec/huffman.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/dec/state.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/backward_references.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/backward_references_hq.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/bit_cost.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/block_splitter.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/brotli_bit_stream.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/cluster.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/compress_fragment.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/compress_fragment_two_pass.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/dictionary_hash.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/encode.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/entropy_encode.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/histogram.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/literal_cost.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/memory.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/metablock.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/static_dict.o" "C:\\Users\\Toheeb.Ojuolape\\Documents\\Rust\\rust-auth-api\\target\\debug\\build\\brotli-sys-9f3c1dfae1167341\\out\\brotli/enc/utf8_util.o"
+exit code: 0
+cargo:rustc-link-lib=static=brotli
+cargo:rustc-link-search=native=C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\build\brotli-sys-9f3c1dfae1167341\out

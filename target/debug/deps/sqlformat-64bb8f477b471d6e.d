@@ -1,0 +1,10 @@
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\deps\sqlformat-64bb8f477b471d6e.rmeta: C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\lib.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\formatter.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\indentation.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\inline_block.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\params.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\tokenizer.rs
+
+C:\Users\Toheeb.Ojuolape\Documents\Rust\rust-auth-api\target\debug\deps\sqlformat-64bb8f477b471d6e.d: C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\lib.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\formatter.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\indentation.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\inline_block.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\params.rs C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\tokenizer.rs
+
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\lib.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\formatter.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\indentation.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\inline_block.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\params.rs:
+C:\Users\Toheeb.Ojuolape\.cargo\registry\src\github.com-1ecc6299db9ec823\sqlformat-0.1.8\src\tokenizer.rs:
